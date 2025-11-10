@@ -26,7 +26,8 @@ VALUES
 INSERT INTO calculations (operation, operand_a, operand_b, result, user_id)
 VALUES
 ('add', 2, 3, 5, 1),
-('divide', 10, 2, 5, 20, 2);
+('divide', 10, 2, 5, 1),
+('multiply', 4, 5, 20, 2);
 
 -- C. Query data
 SELECT * FROM users;
@@ -45,3 +46,4 @@ WHERE id = 1;
 -- E. Delete a record
 DELETE FROM calculations
 WHERE id = 2;
+
